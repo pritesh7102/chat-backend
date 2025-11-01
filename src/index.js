@@ -16,6 +16,11 @@ dotenv.config();
 const PORT = process.env.PORT;
 const __dirname = path.resolve();
 
+allowedOrigins = [
+  "http://localhost:5173",
+  "https://chat-frontend-kohl-two.vercel.app/",
+];
+
 app.use(express.json());
 app.use(cookieParser());
 app.use(
