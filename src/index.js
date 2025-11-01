@@ -18,7 +18,7 @@ const __dirname = path.resolve();
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://chat-frontend-kohl-two.vercel.app/",
+  "https://chat-frontend-kohl-two.vercel.app",
 ];
 
 app.use(express.json());
